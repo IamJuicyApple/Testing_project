@@ -3,7 +3,7 @@ import urllib.parse
 
 ##x = urllib.request.urlopen("https://www.google.com")
 ##print(x.read())
-
+"""
 url = "http://pythonprogramming.net"
 values = {"s":"basic",
           "submit":"search"}
@@ -16,7 +16,8 @@ respData = resp.read()
 
 print(respData)
 
-
+"""
+print("new")
 try:
     x= urllib.request.urlopen("https://www.google.com/search?q=test")
 
